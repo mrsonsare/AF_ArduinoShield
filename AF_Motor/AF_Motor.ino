@@ -11,8 +11,8 @@ void loop() {
   // Control the motor
   motor.run(FORWARD); // Run motor forward
   //  delay(2000); // Wait for 2 seconds
-  // motor1.run(BACKWARD); // Run motor backward
+  motor.run(BACKWARD); // Run motor backward
   // delay(2000); // Wait for 2 seconds
-  // motor1.run(RELEASE); // Stop the motor
+  motor.run(RELEASE); // Stop the motor
   // delay(2000); // Wait for 2 seconds
 }
